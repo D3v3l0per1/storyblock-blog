@@ -7,7 +7,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: "Storyblok + nuxt ? <3",
+    title: "Storyblok + nuxt = <3",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -41,7 +41,7 @@ module.exports = {
   */
   modules: [
     // Doc: https://github.com/nuxt-community/axios-module#usage
-    '@nuxtjs/axios'
+    ['storyblok-nuxt', { accessToken: 'LmsfSRQ3RN7G0U49ErvqJgtt', cacheProvider: 'memory' }]
   ],
 
   /*
